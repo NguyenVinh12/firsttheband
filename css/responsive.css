@@ -1,0 +1,94 @@
+@media (max-width: 739px) {
+    #navigation {
+        display: block; 
+    }
+
+    #navigation .subnavigation {
+        position: initial;
+        background-color: #000;
+        
+    }
+    #navigation .subnavigation a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+    .subnavigation li:hover {
+        cursor: pointer;
+        background-color: #ccc;
+    }
+
+
+    #header {
+        overflow: hidden;
+        
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #navigation>li {
+        display: block;
+    }
+
+    #navigation>li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    .text-content {
+        display: none;
+    }
+    .space-items,
+    #content .member-item {
+        float: none;
+        width: 100%;
+    }
+    .contact-adress {
+        margin-bottom: 0;
+    }
+
+    .space-btn,
+    .contact-adress,
+    .contact-text-name, .contact-text-email {
+        width: 100%;
+    }
+    .contact-text {
+        position: initial;
+        width: 100%;
+    }
+    .contact-text-name, .contact-text-email{
+        margin-top: 14px;
+    }
+    .contact-text-message {
+        margin-top: 66px;
+    }
+    .contact-btn-send {
+        width: 100%;
+    }
+    #content .member-list {
+        padding-top: 32px 0 0 0;
+    }
+    .content-map img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px) {
+    .contact-btn-send {
+        padding: 15px 20px;
+    }
+    .space-btn {
+        padding: 12px 16px;
+    }
+    #footer .socials-list a {
+        font-size: 33px;
+        margin-left: 36px;
+    }
+    #footer p {
+        font-size: 30px;
+        padding: 16px;
+    }
+
+
+}
